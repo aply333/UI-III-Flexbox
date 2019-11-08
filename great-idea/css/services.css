@@ -181,122 +181,66 @@ nav a {
   padding: 10px;
   font-size: 16px;
 }
-
+ul{
+    list-style-type: square;
+}
 .container {
-  margin: 15px auto;
-  padding: 25px;
+  margin: 0 auto;
   width: 750px;
 }
-.main{
-	display: flex;
-	justify-content: space-around;
+.services-header-img{
+    align-self: center;
+    width:750px;
+    margin:15px auto;
+    padding: 15px;
 }
-	.main .front-text{
-		width:250px;
-		justify-content:center;
-	}
-		.front-text{
-			justify-content: space-around;
-		}
-			.main .front-text h1{
-				margin: 15% auto;
-				font-size:64px;
-				text-align:center;
-			}
-			.main .front-text a{
-				margin:10px auto;
-				padding:10px 30px 10px 30px;
-				text-align: center;
-				color: black;
-				border: solid black 2px;
-				font-size:16px;
-				font-style:none;
-			}
-.feat-about{
-	display:flex;
+.services{
+    margin:15px;
+    margin-bottom:25px;
+    padding-bottom:10px;
 }
-	.feat-about .sub-content{
-		padding: 15px;
-	}
-.middle-img{
-	width: 700px;
-	margin: 10px auto 20px;
-	padding-top: 10px;
-	padding-bottom:10px;
+.opt-services{
+    display:flex;
+    flex-flow:wrap;
+    margin: 5px;
+    justify-content:space-between;
 }
-.serv-prod-vis{
-	display: flex;
-	justify-content: space-evenly;
+    .opt-services .opt{
+        width: 47%;
+        margin:15px auto;
+        padding:25px;
+        border: 1px solid black;
+        background: rgb(247, 245, 245);
+    }
+    .opt-services .opt p{
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+    .opt-services .opt a{
+        margin-top:5px;
+        margin-bottom:35px;
+        padding:5px 10px 5px;
+        border: black solid 1px;
+        font-style:none;
+    }
+.about-serv{
+    display:flex;
+    justify-content: space-between
+    margin 5px;
 }
-	.serv-prod-vis{
-		margin: 0 5px;
-		padding: 15px 10px;
-		
-	}	
+    .about-serv .facts{
+        margin: 25px;
+        width: 50%;
+    }
+        .about-serv .facts ul li{
+            margin:15px;
+        }
+    .about-serv img{
+        width: 49%;
+        height: 49%;
+    }
 footer{
-	margin: 15px auto;
-	text-align: center;
+    margin: 20px auto 15px;
+    padding:30px;
+    text-align: center;
 }
-/* -----DON'T Like my code starting from scratch---
-.container{
-	width: 750px;
-	margin: auto;
-}
-.logo{
-	margin-top:5px;
-	display: inline-block;
-	float: right;
-}
-.main{
-    margin:auto;
-    margin-top:20px;
-	height:525px;
-}
-	.main h1{
-		text-align: center;
-		font-size:64px;
-		display: inline-block;
-		margin:160px 0 auto 0;
-		padding: auto;
-	}
-	.main img{
-		margin:100px 0 auto 0;
-		display: inline-block;
-		float:right;
-	}
-	.main h1 .get-started{
-		color: black;
-		margin:10px;
-		padding:10px 30px 10px 30px;
-		border: solid black 2px;
-		font-size:16px;
-	}
-.feat-about{
-	margin: 10px;
-	padding: 10px;
-}
-	.feat-about .feat{
-		display: inline-block;
-		float: left;
-		margin:10px;
-		width: 50%;
-	}
-.middle-img{
-	margin:auto;
-	padding:15px;
-	width:100%;
-}
-.serv-prod-vis{
-	margin: 10px;
-	padding: 10px;
-}
-	.serv-prod-vis .column{
-		display: inline-block;
-		float: left;
-		margin:10px;
-		width:33%;
-	}
-.contact{
-	margin-top:25px;
-	margin-left:25px;
-} */
