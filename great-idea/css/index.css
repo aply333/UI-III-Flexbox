@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+header{
+	display: flex;
+	margin:0 auto;
+	align-items: center;
+	justify-content: space-evenly;
+    width:750px;
+    background-color: lightslategrey;
+    border:solid black;
+    border-radius:20px;
+    position:fixed;
+}
+
+nav a{
+	/* display: inline-block;
+	float: left; */
+	color: lightgray;
+	text-decoration:none;
+	margin: 5px 5px 5px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.container{
+	margin-top:25px;
+	padding:25px;
+	width: 750px;
+	display:flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+/* -----DON'T Like my code starting from scratch---
+footer{
+	text-align:center;
+	margin:25px;
+}
+.container{
+	width: 750px;
+	margin: auto;
+}
+.logo{
+	margin-top:5px;
+	display: inline-block;
+	float: right;
+}
+.main{
+    margin:auto;
+    margin-top:20px;
+	height:525px;
+}
+	.main h1{
+		text-align: center;
+		font-size:64px;
+		display: inline-block;
+		margin:160px 0 auto 0;
+		padding: auto;
+	}
+	.main img{
+		margin:100px 0 auto 0;
+		display: inline-block;
+		float:right;
+	}
+	.main h1 .get-started{
+		color: black;
+		margin:10px;
+		padding:10px 30px 10px 30px;
+		border: solid black 2px;
+		font-size:16px;
+	}
+.feat-about{
+	margin: 10px;
+	padding: 10px;
+}
+	.feat-about .feat{
+		display: inline-block;
+		float: left;
+		margin:10px;
+		width: 50%;
+	}
+.middle-img{
+	margin:auto;
+	padding:15px;
+	width:100%;
+}
+.serv-prod-vis{
+	margin: 10px;
+	padding: 10px;
+}
+	.serv-prod-vis .column{
+		display: inline-block;
+		float: left;
+		margin:10px;
+		width:33%;
+	}
+.contact{
+	margin-top:25px;
+	margin-left:25px;
+} */
